@@ -1,0 +1,25 @@
+local max_y = 0
+local max_x = 0
+local frequency = 0.25
+local COMPONENT = "/go#wall_factory"
+
+function init(self)
+	max_x, max_y = window.get_size()
+	self.timer = 1/frequency
+end
+
+function update(self, dt)
+	self.timer = self.timer - dt
+	if self.timer <= 0 then
+		local p = go.get_position()
+		p.y = max_y
+		p.x = vmath.lerp(math.random(), 0, max_x)
+		factory.create(COMPONENT, p)
+		self.timer = 1/frequency
+	end
+
+end
+
+function on_message(self, message_id, message, sender)
+
+end
