@@ -12,4 +12,16 @@ instances {
     z: 2.5
   }
 }
+instances {
+  id: "Wall"
+  prototype: "/main/Wall/Wall.go"
+  position {
+    x: 149.0
+    y: 841.0
+  }
+  scale3 {
+    x: 0.5
+    y: 0.5
+  }
+}
 scale_along_z: 0

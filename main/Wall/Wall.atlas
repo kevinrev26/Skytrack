@@ -1,0 +1,4 @@
+images {
+  image: "/assets/Wall/Asset 14.png"
+}
+extrude_borders: 2
