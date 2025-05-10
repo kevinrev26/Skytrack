@@ -1,0 +1,24 @@
+animations {
+  id: "Idle"
+  images {
+    image: "/assets/Hero/Idle/Spear/idle_spear_left_down_01.png"
+  }
+  images {
+    image: "/assets/Hero/Idle/Spear/idle_spear_left_down_02.png"
+  }
+  images {
+    image: "/assets/Hero/Idle/Spear/idle_spear_left_down_03.png"
+  }
+  images {
+    image: "/assets/Hero/Idle/Spear/idle_spear_left_down_04.png"
+  }
+  images {
+    image: "/assets/Hero/Idle/Spear/idle_spear_left_down_05.png"
+  }
+  images {
+    image: "/assets/Hero/Idle/Spear/idle_spear_left_down_06.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 7
+}
+extrude_borders: 2
